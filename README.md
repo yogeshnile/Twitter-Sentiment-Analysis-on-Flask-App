@@ -2,6 +2,36 @@
 In this repo i created a twitter sentiment analysis on flask app (web base).
 
 
+# Disclaimer
+I am not provideing twitter **API** keys. You have get twitter API keys on twitter developer account. Get [API Keys](https://developer.twitter.com/)
+
+Get a API key and put in the below code section
+```python
+def sentiment():
+    userid = request.form.get('userid')
+    hashtag = request.form.get('hashtag')
+
+    if userid == "" and hashtag == "":
+        error = "Please Enter any one value"
+        return render_template('index.html', error=error)
+    
+    if not userid == "" and not hashtag == "":
+        error = "Both entry not allowed"
+        return render_template('index.html', error=error)
+
+    consumerKey = ""
+    consumerSecret = ""
+    accessToken = ""
+    accessTokenSecret = ""
+    
+    authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
+    authenticate.set_access_token(accessToken, accessTokenSecret)
+    api = tweepy.API(authenticate, wait_on_rate_limit = True)
+   ```
+
+
+
+## ScreenShot
 ![](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI/blob/master/Images/3.png)
 
 
