@@ -1,6 +1,16 @@
 # Twitter-Sentiment-Analysis-on-Flask-App
 In this repo i created a twitter sentiment analysis on flask app (web base).
 
+# Dependentias
+```python
+from flask import Flask,render_template, redirect, request
+import numpy as np
+import tweepy 
+import pandas as pd
+from textblob import TextBlob
+from wordcloud import WordCloud
+import re
+```
 
 # Disclaimer
 I am not provideing twitter **API** keys. You have get twitter API keys on twitter developer account. Get [API Keys](https://developer.twitter.com/)
