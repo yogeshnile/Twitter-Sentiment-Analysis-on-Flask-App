@@ -1,5 +1,4 @@
 from flask import Flask,render_template, redirect, request
-from tkinter import *
 import numpy as np
 import tweepy 
 import pandas as pd
