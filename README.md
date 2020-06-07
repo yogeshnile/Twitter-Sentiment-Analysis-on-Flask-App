@@ -30,11 +30,13 @@ def sentiment():
     if not userid == "" and not hashtag == "":
         error = "Both entry not allowed"
         return render_template('index.html', error=error)
-
+    
+    #=====================Insert Twitter API Here==========================
     consumerKey = ""
     consumerSecret = ""
     accessToken = ""
     accessTokenSecret = ""
+    #=====================Insert Twitter API End===========================
     
     authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
     authenticate.set_access_token(accessToken, accessTokenSecret)
