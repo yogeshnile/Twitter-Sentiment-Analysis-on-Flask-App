@@ -21,6 +21,7 @@ def sentiment():
         error = "Both entry not allowed"
         return render_template('index.html', error=error)
 
+    #======================Insert Twitter API Here==========================
     consumerKey = ""
     consumerSecret = ""
     accessToken = ""
