@@ -26,6 +26,7 @@ def sentiment():
     consumerSecret = ""
     accessToken = ""
     accessTokenSecret = ""
+    #======================Insert Twitter API End===========================
     
     authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
     authenticate.set_access_token(accessToken, accessTokenSecret)
