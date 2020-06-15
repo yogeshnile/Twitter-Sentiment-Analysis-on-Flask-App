@@ -1,9 +1,9 @@
-# Twitter-Sentiment-Analysis-on-Flask-App
+# Twitter-Sentiment-Analysis-on-Flask-App :notebook:
 In this repo i created a twitter sentiment analysis on flask app (web base).
 
 You can also check a demo website [click here](http://hitalfashion.pythonanywhere.com/)
 
-# Dependentias
+# Dependentias :warning:
 ```python
 from flask import Flask,render_template, redirect, request
 import numpy as np
@@ -13,12 +13,12 @@ from textblob import TextBlob
 from wordcloud import WordCloud
 import re
 ```
-# Application
+# Application :loudspeaker:
 Ckeck out Twitter Sentiment Analysis on python **GUI** App :point_right: [click here](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Python-GUI)
 
 Ckeck out Twitter Sentiment Analysis on python **Jupyter Notebook** :point_right: [click here](https://github.com/yogeshnile/Sentiment-Analysis-of-Twitter-Account)
 
-# Disclaimer
+# Disclaimer :skull_and_crossbones:
 I am not provideing twitter **API** keys. You have get twitter API keys on twitter developer account. Get [API Keys](https://developer.twitter.com/)
 
 Get a API key and put in the below code section
@@ -49,18 +49,18 @@ def sentiment():
 
 
 
-## ScreenShot
+## ScreenShot :camera_flash:
 ![](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Flask-App/blob/master/images/3.png)
 ![](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Flask-App/blob/master/images/4.png)
 ![](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Flask-App/blob/master/images/5.png)
 
 
-## Contributing
+## Contributing :man_technologist:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## Follow on a Social Media
+## Follow on a Social Media :busts_in_silhouette:
 - [LinkedIn](https://bit.ly/2Ky3ho6)
 - [Instagram](https://bit.ly/3b9Qeo4)
 - [Instagram](https://bit.ly/32SXHV0) Personal
